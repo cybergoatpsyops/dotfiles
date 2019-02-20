@@ -32,3 +32,9 @@ export PATH=/usr/local/texlive/2018/bin/x86_64-linuxmusl:$PATH
 export PATH=$PATH:~/.local/share/nvim/plugged/vim-live-latex-prewview/bin
 export XDG_RUNTIME_DIR=/run/user/1000
 export PATH=$PATH:~/.cache/cfiles/scripts
+export EDITOR=/usr/local/bin/nvim
+export HISTSIZE=10000
+export HISTFILESIZE=${HISTSIZE}
+export HISTCONTROL=ignoreboth
+
+alias vim='nvim'
