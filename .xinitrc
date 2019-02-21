@@ -2,8 +2,6 @@
 
 [ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
 
-xset r rate 200 50
-
 xset +fp ~/.local/share/fonts
 
 # Powerline daemon
