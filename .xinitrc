@@ -13,11 +13,17 @@ wal -R -n
 # Compositor
 compton &
 
+# Active window focus
+flashfocus &
+
 # Background wallpaper
 ~/.fehbg &
 
 # dwmStatus bar
 ~/bin/dwmStatus.sh &
+
+# Rotate 2nd monitor to landscape
+xrandr --output DisplayPort-1 --rotate left
 
 # Suckless window tiling manager
 exec dwm
